@@ -1,10 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>My Portfolio Website</title>
-    </head>
-    <body>
-        <h1>My Portfolio</h1>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings"> Hello, my name is <br> Alex Dunstan Kiiru Mureithi </h1>
+            <button class="btn"> 
+                Contact Me
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <hi class="headings">ABOUT ME</hi>
+        <div id="pic">
+            <img src="background1.jpg" alt="">
+            <div id="intro">
+                <h2>ALEX DUNSTAN KIIRU MUREITHI</h2>
+                <P>I am a forward thinking knowledgeable and capable individual with a sharp enquiring mind in all areas of the field and those subjects which are in close relation to my skills and knowledge.I have the required skills and dynamism necessary to provide quality service and efficiency to drive your business to a competitive advantage, I'm an excellent communicator who can relate well with people at all levels and work well as partof a team or individually.</P>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="portfolio/img1.jpg" alt="">
+            <img src="portfolio/img2.jpg" alt="">
+            <img src="portfolio/img3.jpg" alt="">
+            <img src="portfolio/img4.jpg" alt="">
+            <img src="portfolio/img5.jpg" alt="">
+            <img src="portfolio/img6.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="services/web.png" alt="">
+                <h1 class="headings">Website Design</h1>
+                <p>Hello and welcome! I am a passionate and creative website designer dedicated to transforming ideas
+                    into
+                    visually stunning and user-friendly digital experiences. Whether you're a business owner looking to
+                    establish an online
+                    presence or a fellow designer seeking inspiration, you've come to the right place.</p>
+            </div>
+            <div class="box">
+                <img src="services/ui-ux.png" alt="">
+                <h1 class="headings">UX/UI<br> Design</h1>
+                <p>Welcome to my UX/UI design portfolio, where user-centric design meets aesthetic excellence. I'm [Your
+                    Name], a dedicated
+                    UX/UI designer passionate about creating digital solutions that not only look beautiful but also
+                    provide intuitive,
+                    enjoyable experiences for users.</p>
+            </div>
+            <div class="box">
+                <img src="services/digital marketing.png" alt="">
+                <h1 class="headings">Digital Marketing</h1>
+                <p>A seasoned digital marketing professional with a passion for crafting data-informed campaigns that
+                    connect brands with
+                    their audience and deliver tangible growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">Contact</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name=",sg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+
+    </section>
+    <script src=""></script>
+    <script src="assets/js/main.js"></script>
+</body>
 
 </html>
